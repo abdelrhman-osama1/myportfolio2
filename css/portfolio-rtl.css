@@ -1,0 +1,16 @@
+.section-T span {
+    transform: translateX(-31px);
+}
+
+#contact .form input {
+    padding-right: 22px;
+}
+::placeholder {
+    text-align: right;
+}
+::-ms-placeholder {
+    text-align: right;
+}
+#contact textarea {
+    padding-right: 25px;
+}
