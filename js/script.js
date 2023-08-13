@@ -137,6 +137,7 @@ stop = setTimeout(()=> {
             messageValid = true
             //delete the input text after sending the email
             localStorage.removeItem("text")
+            localStorage.removeItem("ema")
         }
         
         if ( nameValid === false || eValid === false || messageValid === false) {

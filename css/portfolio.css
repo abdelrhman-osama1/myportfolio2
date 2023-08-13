@@ -13,6 +13,14 @@ html {
     scroll-behavior: smooth;
     height: 100%;
 }
+.sml{
+    max-width: 50px;
+border-width: 3px;
+border-color: var(--main-color);
+left: 33%;
+position: relative;
+opacity: unset;
+}
 
 body {
     font-family: 'work-sans', sans-serif ,'open sans';
@@ -401,10 +409,6 @@ nav .open li:nth-child(4)::after {
     .aboutme .head{
         padding-bottom: 22px;
     }
-    .aboutme .head span {
-    border: var(--main-color) solid;
-    border-width: 3px 27px 0;
-    }
     .aboutme .head-text h4 {
     text-transform: uppercase;
     color: var(--mob-text);
@@ -454,12 +458,6 @@ nav .open li:nth-child(4)::after {
     padding-bottom: 10px;
     font-size: 30px;
     }
-    .section-T span {
-        content: (" ");
-        border: 1px solid var(--main-color);
-        width: 44px;
-        transform: translateX(31px);
-    }
     .column{
         display: flex;
         text-align: center;
@@ -488,13 +486,6 @@ nav .open li:nth-child(4)::after {
     position: relative;
     background-color: var(--bg);
     height: 100%;
-}
-#contact .section-T::after {
-    content: "";
-    background-color: var(--main-color);
-    width: 30px;
-    height: 2px;
-    transform: translateX(40px);
 }
 #contact .section-T {
     margin-bottom: 23px;
