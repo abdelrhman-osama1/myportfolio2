@@ -68,7 +68,7 @@ body {
     min-height: 690px;
 }
 .top {
-    background-image: url(./img/Admiring\ the\ sunset\ while\ working\ from\ home.png);
+    background-image: url(./img/home.png);
     background-repeat: no-repeat;
     background-position: center 52%;
     background-size: cover;
@@ -79,7 +79,7 @@ body {
     background-color: black;
     width: 100%;
     height: 100%;
-    min-height: inherit;
+    min-height: 100vh;
     opacity: 0.5;
 }
 nav {
@@ -112,7 +112,6 @@ nav .mainnav {
     align-items: center;
     font-family: 'open sans';
     font-size: 12px;
-    font-weight: 600;
 }
 nav .mainnav li {
     margin-right: 26px;
@@ -131,19 +130,12 @@ nav .mainnav li a.active {
 }
 .arrow {
     cursor: pointer;
-    color: var(--text);
 }
 .mainnav .arrow img{
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
 }
-.lang {
-    display: none;
-    transform: translate(-25px, 8px);
-}
-.lan {
-    display: grid;
-} 
+
 .icon {
     position: absolute;
     height: 41px;
@@ -277,6 +269,13 @@ section .shapebottom{
         display: flex;
         padding: 0;
         height: 29px;
+        margin-right: -40px;
+
+    }
+    nav .inmob  .arrow img{
+        width: 30px;
+        height: 30px;
+        transform: translate(-133px, 5px);
     }
 nav .show {
     display: flex;
@@ -344,13 +343,14 @@ nav .open li:nth-child(4)::after {
     .icon , nav .open {
         display: none;
     }
+
     nav.bgColor {
         transition: ease-in 300ms;
         background-color: var(--text);
         height: 60px;
         box-shadow: rgb(0 0 0 / 35%) 0px 2px 12px 2px;
     }
-    nav.bgColor a ,.bgColor .arrow {
+    nav.bgColor a ,.bgColor {
         color: var(--mob-text);
     }
     nav.bgColor .lang a {

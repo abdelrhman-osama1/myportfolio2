@@ -29,28 +29,6 @@ links.onclick = function (e) {
     e.stopPropagation();
 }
 
-//toggle lan
-let arrow = document.querySelector(".arrow");
-let lang = document.querySelector(".lang");
-
-arrow.onclick = function (e) {
-e.stopPropagation();
-//toggle class lan on lang
-lang.classList.toggle("lan");
-}
-// click anywhere outside lang
-document.addEventListener("click", (e) => {
-    //check if lang is open
-    if (e.target !== arrow && e.target !== lang) {
-        if (lang.classList.contains("lan")) {
-            lang.classList.toggle("lan");
-        }
-    }
-});
-//stop propagation on lang
-lang.onclick = function (e) {
-    e.stopPropagation();
-}
 
 //change navbar bg 
 function changeBg() {
