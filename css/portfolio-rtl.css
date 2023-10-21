@@ -14,3 +14,8 @@
 #contact textarea {
     padding-right: 25px;
 }
+
+.arrow a {
+    font-size: 15px;
+    font-weight: 800;
+}
