@@ -1,2 +1,3 @@
 # myportfolio2
-### my final touch on my portfolio site
+### a personal portfolio website to showcase my projects and programming progress.
+
